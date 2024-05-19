@@ -4,7 +4,12 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        buttonColor: '#303134',
+        bodyColor: '#202124'
+      }
+    },
   },
   plugins: [],
 }
